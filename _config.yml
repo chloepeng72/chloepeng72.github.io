@@ -1,9 +1,9 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Chloe Peng
+bio: Data Scientist
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: data scientist based in The Hague, passionate about finding structure in complexity, using data for better decision-making and improving processes. 
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,12 +16,13 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://chloepeng72.github.io
 # your url: https://USERNAME.github.io
+baseurl: ""
 
 permalink: /:title/
 
@@ -34,26 +35,26 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: https://www.linkedin.com/in/yihepeng/
+github: https://github.com/chloepeng72
+email: chloeyihepeng@outlook.com
 
 authors:
   johndoe:
-    name: John Doe
+    name: Chloe Peng
     bio: A Man who travels the world eating noodles
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    #twitter: 
+ # jamesfoster:
+    #name: James Foster
+    #bio: A Man who develops software with coffee
+    #external-image: false
+    #picture: assets/images/james.jpg
+    #twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -80,7 +81,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
